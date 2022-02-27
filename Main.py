@@ -460,7 +460,7 @@ def hakkimda():  # hakkımda penceresini açıyor.
 #------------------------------------------------------------------#
 app = QApplication(sys.argv)
 web = QWebEngineView()
-web.load(QUrl("https://basicelectronicandmechatronic.blogspot.com/"))
+web.load(QUrl("https://electronicsandfirmware.blogspot.com/"))
 icon = QtGui.QIcon()
 icon.addPixmap(QtGui.QPixmap(":/icon/icon.ico"),
                QtGui.QIcon.Normal, QtGui.QIcon.Off)
@@ -470,7 +470,7 @@ web.setWindowTitle(("Blog Sayfam"))
 
 def Blog():
     # blog sayfasını internet penceresini açıyor.
-    web.load(QUrl("https://basicelectronicandmechatronic.blogspot.com/"))
+    web.load(QUrl("https://electronicsandfirmware.blogspot.com/"))
     web.show()
 
 #---------------------Sistem blog --------------------------------#
@@ -481,13 +481,13 @@ def Blog():
 #------------------------------------------------------------------#
 app1 = QApplication(sys.argv)
 web1 = QWebEngineView()
-web1.load(QUrl("https://www.instagram.com/basic_e_and_m/?hl=tr"))
+web1.load(QUrl("https://www.linkedin.com/in/an%C4%B1l-kavuk-357b35171/"))
 icon = QtGui.QIcon()
 icon.addPixmap(QtGui.QPixmap(":/icon/icon.ico"),
                QtGui.QIcon.Normal, QtGui.QIcon.Off)
 web1.setWindowIcon(icon)
 # instagram sayfasını internet penceresini açıyor.
-web1.setWindowTitle(("İnstagram "))
+web1.setWindowTitle(("Linkedin"))
 
 
 def instagram():
